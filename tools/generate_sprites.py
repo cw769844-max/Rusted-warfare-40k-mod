@@ -14,6 +14,7 @@ FACTION_COLORS = {
     'orks':          (45, 107, 45),
     'necrons':       (160, 168, 176),
     'chaos':         (139, 26, 26),
+    'shared':        (180, 160, 60),   # gold — neutral faction selector
 }
 DESTROYED_COLOR = (85, 85, 85)
 MK2_TINT = 40  # added to each channel for Mk2 upgrade sprites
@@ -148,6 +149,8 @@ MANIFEST = [
     ('necrons', 'nec', 'generator',           True),
     ('necrons', 'nec', 'wall',                True),
     ('necrons', 'nec', 'tesseract_vault',     True),
+    # ── Shared ─────────────────────────────────────────────────
+    ('shared', 'wh40k', 'selector', True),
     # ── Chaos Space Marines ────────────────────────────────────
     ('chaos', 'csm', 'warpsmith',       False),
     ('chaos', 'csm', 'cultists',        False),
