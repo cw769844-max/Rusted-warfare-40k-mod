@@ -1,5 +1,5 @@
 name = Warhammer 40000
-author = Warhammer 40K Mod Team
+author = CW
 version = 0.1.0
 description = A total conversion mod bringing the Warhammer 40,000 universe to Rusted Warfare. Features four factions: Space Marines, Orks, Necrons, and Chaos Space Marines. In the grim darkness of the far future, there is only war.
 compatibleVersions = 1.15
