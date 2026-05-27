@@ -197,7 +197,7 @@ def main():
         base_png = make_png(size, size, fill, border, border_w)
         dest_png = make_png(size, size, DESTROYED_COLOR, destroyed_border, border_w)
 
-        sprite_dir = os.path.join(base_dir, 'sprites', faction_dir)
+        sprite_dir = os.path.join(base_dir, 'graphics', faction_dir)
         write_png(os.path.join(sprite_dir, f'{prefix}_{slug}_base.png'), base_png)
         write_png(os.path.join(sprite_dir, f'{prefix}_{slug}_destroyed.png'), dest_png)
         generated += 2
